@@ -1,0 +1,39 @@
+.footer {
+  background-color: #ce7937;
+  padding: 116px 0 151px;
+}
+
+.footer__container {
+  max-width: 1475px;
+}
+
+.footer__title {
+  font-weight: 700;
+  line-height: .77;
+}
+
+.footer__subtitle,
+.footer__title {
+  font-size: 1.9rem;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: .12px;
+  text-align: center;
+  color: #fdfdfd;
+}
+
+.footer__subtitle {
+  margin-top: 33px;
+  font-weight: 400;
+  line-height: 1.16;
+}
+
+@media (max-width:767px) {
+  .footer__subtitle {
+    font-size: 1.5rem;
+  }
+
+  .footer {
+    padding: 25px 0;
+  }
+}
